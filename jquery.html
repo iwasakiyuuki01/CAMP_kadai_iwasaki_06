@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- <div id="a1">11111</div> -->
+
+<div>0</div>
+<div id="ex">
+  <div class="a">
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+  </div>
+</div>
+<div>6</div>
+<div>7</div>
+<div>8</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- グーグルのjquery cdn url -->
+
+<script>
+// $("body").append("<div>ABC</div>");
+
+// let
+// const
+// var
+// 変数宣言
+
+// const link = '<a href="#">リンク</a>';
+// $("#a1").html(link);
+// $("#a1").fadeOut(1000).fadeIn(1000);//1000=1秒
+// $("#a1").prepend("アイ");
+// $("#a1").append("ウエオ");
+
+const character = '<p>かきくけこ</p>';
+$("#ex").html(character);
+$("#ex").fadeOut(0).fadeIn(4000);
+$("#ex").css("color","white").css("background-color","#000000");
+$("#ex").prepend("あいうえお");
+$("#ex").append("さしすせそ");
+$(function() {
+  $("div:even").css("background-color", "white");
+  $("div:odd").css("background-color", "#000000");
+});
+$("#ex").each(function() {
+  $("p:even").css("background-color", "white");
+});
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="rps.js" ></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <h1>じゃんけん</h1> 
+    </header> 
+    
+    <main> 
+        <ul> 
+            <li data-rps="rock" class="rps-hand"><span>グー</span></li> 
+            <li data-rps="scissors" class="rps-hand"><span>チョキ</span></li> 
+            <li data-rps="paper"  class="rps-hand"><span>パー</span></li> 
+        </ul> 
+        <div id="pc">コンピュータの出した手は？</div> 
+        <div id="message">ここに表示されます</div> 
+        <div id="Point01">コンピュータの得点は：<span id="point_com">0</span></div> 
+        <div id="Point02">あなたの得点は：<span id="point_me">0</span></div> 
+    </main>
+</body>
+</html>
