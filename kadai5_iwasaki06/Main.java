@@ -1,15 +1,14 @@
-package com.company;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         // 質問を格納する配列の宣言・初期化
-        String[] questions = {"私はカレーが好きだ",
-                "休日にプログラミングをよくする",
-                "キーボードをついついシンセサイザーと呼んでしまう",
+        String[] questions = {"私はハンバーグが好きだ",
+                "休日に運動をよくする",
+                "麻雀が好きだ",
                 "8時間以上睡眠しないと駄目だ",
-                "ついついゲームと本を買って積んでしまう"};
+                "ボウリングが好きだ"};
         // スキャナー変数の宣言
         Scanner scanner = new Scanner(System.in);
         // 値の合計値を集計する変数の宣言

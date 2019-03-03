@@ -11,7 +11,7 @@ public class Person {
     }
 
     public void getSelfIntroduction() {
-        System.out.println("私の名前は" + name + "です。" + raduateg + "出身");
+        System.out.println("私の名前は" + name + "です。" + raduateg + "出身です。");
     }
 
     public void getSelfIntroduction2() {
